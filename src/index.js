@@ -29,7 +29,7 @@ var exports = module.exports = function($, item) {
     results.push({
       type: 'url',
       url: url,
-      processor: 'xkcd.com.listing'
+      processor: 'xkcd.com.index'
     });
   });
 
