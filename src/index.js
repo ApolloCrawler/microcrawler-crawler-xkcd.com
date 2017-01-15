@@ -29,7 +29,7 @@ var exports = module.exports = function($, item) {
     results.push({
       type: 'url',
       url: url,
-      processor: 'xkcd.com.index'
+      processor: 'xkcd.com/index'
     });
   });
 
@@ -42,7 +42,6 @@ var exports = module.exports = function($, item) {
       url: src,
       title: element.attr('title'),
       alt: element.attr('alt'),
-      listingUrl: item.url,
       thumbnails: [
         src
       ]
